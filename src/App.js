@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import AppContext from './context';
+import LoginView from './views/LoginView/LoginView';
+import SearchView from './views/SearchView/SearchView';
+import UserView from './views/UserView/UserView';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    isLoggedIn: false,
+
+  }
+
+  loginInSystem = (password) => {
+    if(password === 'qwerty') {
+      this.setState({
+        isLoggedIn: true
+      })
+    } else {
+      this.setState({
+        isLoggedIn: false
+      })
+    }
+  }
+
+  render(){
+    return (
+      <Router>
+        <Switch>
+          <Route exact path="/" component={LoginView} />
+          <Route path="/search" component={SearchView} />
+          <Route path="/user" component={UserView} />
+        </Switch>
+      </Router>
+    );
+  }
 }
 
 export default App;
