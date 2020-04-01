@@ -11,8 +11,9 @@ html {
 }
 
 body {
-  height: 100vh;
-  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+  padding: 2rem;
   font-size: 1.6rem;
   background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('./assets/image/bgc.jpg');
   background-size: cover;

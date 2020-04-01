@@ -1,8 +1,10 @@
 import React from 'react';
+import User from '../../components/User/User';
 
 const UserView = () => {
+  console.log(this.props.match)
   return (
-    <h1>User view</h1>
+    <User />
   )
 }
 

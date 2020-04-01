@@ -1,0 +1,9 @@
+.userList {
+  width: 80%;
+  margin: 3rem auto;
+  list-style: none;
+
+  @media (min-width: 1024px) {
+    width: 60%;
+  }
+}

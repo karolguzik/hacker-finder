@@ -1,0 +1,14 @@
+.userItem {
+  display: block;
+  width: 100%;
+  margin: .5rem 0;
+  padding: .5rem 1rem;
+  color: #4d8a42;
+  border: 2px solid #4d8a42;
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+    opacity: .8;
+  }
+}

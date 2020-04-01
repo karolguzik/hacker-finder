@@ -1,0 +1,135 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../../assets/image/bgc.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+
+.accessWrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 70px;
+  padding: .5rem;
+  border: 3px solid #4d8a42;
+  overflow: hidden;
+}
+
+.accessBarGranted,
+.accessBarRejected {
+  width: 100%;
+  height: 100%;
+  animation: accessAnimation 2s ease-in;
+}
+
+.accessBarGranted {
+  background: #4d8a42;
+}
+
+.accessBarRejected {
+  background: red;
+}
+
+.accessText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: white;
+}
+
+@keyframes accessAnimation {
+  0% {
+    opacity: 1
+  }
+
+  5% {
+    opacity: 0
+  }
+
+  10% {
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 1;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  35% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  45% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  55% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  65% {
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  85% {
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 0;
+    ;
+  }
+
+  95% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

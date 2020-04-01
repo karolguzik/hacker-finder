@@ -1,10 +1,12 @@
 import React from 'react';
-
+import Search from '../../components/Search/Search';
+import UserList from '../../components/UserList/UserList';
 
 const SearchView = () => {
   return (
   <>
-    <h1>search view...</h1>
+    <Search />
+    <UserList />
   </>
   )
 }
