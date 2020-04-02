@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/hacker-finder/static/css/main.7db93d3c.chunk.css",
+    "main.js": "/hacker-finder/static/js/main.c9805896.chunk.js",
+    "main.js.map": "/hacker-finder/static/js/main.c9805896.chunk.js.map",
+    "runtime-main.js": "/hacker-finder/static/js/runtime-main.8526a85b.js",
+    "runtime-main.js.map": "/hacker-finder/static/js/runtime-main.8526a85b.js.map",
+    "static/js/2.3f8dc466.chunk.js": "/hacker-finder/static/js/2.3f8dc466.chunk.js",
+    "static/js/2.3f8dc466.chunk.js.map": "/hacker-finder/static/js/2.3f8dc466.chunk.js.map",
+    "index.html": "/hacker-finder/index.html",
+    "precache-manifest.8ce05b995343288a2ed5fa11ce0e5800.js": "/hacker-finder/precache-manifest.8ce05b995343288a2ed5fa11ce0e5800.js",
+    "service-worker.js": "/hacker-finder/service-worker.js",
+    "static/css/main.7db93d3c.chunk.css.map": "/hacker-finder/static/css/main.7db93d3c.chunk.css.map",
+    "static/js/2.3f8dc466.chunk.js.LICENSE.txt": "/hacker-finder/static/js/2.3f8dc466.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/hacker-finder/static/media/bgc.8603c2a6.jpg",
+    "static/media/fingerprint.jpg": "/hacker-finder/static/media/fingerprint.acbafeb0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8526a85b.js",
+    "static/js/2.3f8dc466.chunk.js",
+    "static/css/main.7db93d3c.chunk.css",
+    "static/js/main.c9805896.chunk.js"
+  ]
+}
