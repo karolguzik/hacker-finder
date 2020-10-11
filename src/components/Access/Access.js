@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Access.module.scss';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const Access = ({ access }) => {
   return (
@@ -13,12 +13,9 @@ const Access = ({ access }) => {
   )
 }
 
-// Access.defaultProps = {
-//   access: 'granted'
-// }
 
-// Access.propTypes = {
-//   access: PropTypes.string.isRequired,
-// }
+Access.propTypes = {
+  access: PropTypes.string.isRequired,
+}
 
 export default Access;

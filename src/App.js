@@ -7,7 +7,6 @@ import Login from './components/Login/Login';
 import Loading from './components/Loading/Loading';
 import Access from './components/Access/Access';
 import SearchView from './views/SearchView/SearchView';
-// import UserView from './views/UserView/UserView';
 import User from './components/User/User';
 
 class App extends Component {
@@ -108,7 +107,7 @@ class App extends Component {
           { !isLoggedIn && <Login /> } 
           { access === 'granted' ? <Access access={access} /> : access === 'rejected' ? <Access access={access} /> : null}
           <Switch>
-            <Route exact path="/" component={SearchView} />
+            <Route exact path="/hacker-finder" component={SearchView} />
             <Route path="/users/:login" render={props => (
               <User {...props} getUser={this.getUser} getRepos={this.getRepos} user={user} repos={repos}/>
             )} />
