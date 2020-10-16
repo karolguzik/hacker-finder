@@ -1,3 +1,9 @@
+# Hacker-finder
+
+## Hacker-finder application for searching hackers from Github.
+## Created in React ( css modules, context API )
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
