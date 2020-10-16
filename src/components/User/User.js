@@ -51,7 +51,7 @@ class User extends Component {
             <p key={repo.id}><a href={repo.html_url}>{repo.name}</a></p>
           ))}
         </div>)}
-        <Link className={styles.goBack} to="/">Go back</Link>
+        <Link className={styles.goBack} to="/hacker-finder">Go back</Link>
       </div>
     )
   }
