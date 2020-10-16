@@ -1,6 +1,6 @@
 # Hacker-finder
-Hacker-finder application for searching hackers from Github./
-Created in React ( css modules, context API )./
+Hacker-finder application for searching hackers from Github.\
+Created in React ( css modules, context API ).\
 View website https://guzik912.github.io/hacker-finder
 
 
