@@ -30,7 +30,7 @@ class Login extends Component {
                   className={styles.input}
                   type='password'
                   name='password'
-                  placeholder='CORRECT PASSWORD IS "qwerty"'
+                  placeholder='password'
                   onChange={this.onChange}
                   value={this.state.password}
                 ></input>

@@ -63,7 +63,7 @@ class App extends Component {
   loginInSystem = (e,password) => {
     e.preventDefault();
 
-    if(password === 'qwerty') {
+    if(password.trim() !== '') {
       this.setState({
         isLoggedIn: true,
         access: 'granted'
